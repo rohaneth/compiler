@@ -56,7 +56,16 @@ theInput.addEventListener("input", function(){
   // Do something with `theColor` here.
 });
 
-// const hc = document.getElementById('hc')
-// hc.addEventListener('click', ()=>{
-//   alert('image is clicked')
-// })
+function reset(){
+  htmlCode.value = " ";
+  cssCode.value = " ";
+  jsCode.value = " ";
+}
+
+function italic() { 
+  //function to make the text italic using DOM method 
+  htmlCode.style.fontStyle = "italic"; 
+  css.style.fontStyle = "italic"; 
+  jsCode.style.fontStyle = "italic "; 
+} 
+
